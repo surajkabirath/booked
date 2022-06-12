@@ -1,0 +1,82 @@
+.listCounter{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.listWrapper{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap: 20px;
+    
+}
+.listSearch{
+    flex: 1;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 10px;
+    position: sticky;
+    top: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    height: max-content;
+}
+.listTitle{
+    font-size: 20px;
+    color: rgb(46, 42, 42);
+    margin-bottom: 10px;
+}
+.listReasult{
+    flex: 3;
+}
+.listItem{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.listItem>label{
+    font-size: 14px;
+}
+.listItem>input{
+    height: 30px;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+.listItem>span{
+    height: 30px;
+    padding: 5px;
+   background-color: white;
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+   border-radius: 5px;
+}
+.listOptions{
+    padding: 10px;
+}
+.listOptionItem{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 14px;
+}
+.listOptionInput{
+    width: 50px;
+    border-radius: 2px;
+}
+.listSearch>button{
+    padding: 10px;
+    background-color: #0071c2;
+    color: white;
+    border: none;
+    width: 100%;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.listSearch>button:hover{
+    background-color: #054877;
+}

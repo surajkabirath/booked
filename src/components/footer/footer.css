@@ -1,0 +1,61 @@
+.footer{
+    width: 100%;
+    background-color: #212a30;
+    font-size: 16px;
+    font-weight: 700;
+   
+}
+.fLists{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 1024px;
+    padding-left: 250px;
+}
+.fList{
+    list-style: none;
+    padding: 0;
+    
+}
+.fListItem{
+    margin-bottom: 10px;
+    color: white;
+    cursor: pointer;
+}
+.fListItem:hover{
+color: gray;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+    font-size: 14px; 
+    font-weight: 300;
+    color: whitesmoke;
+    width: 1024px;
+}
+.detail{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+    font-size: 14px; 
+    font-weight: 500;
+    color: whitesmoke;
+    
+}
+.fText{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.disc{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+    padding-top: 100px;
+    font-weight: bold; 
+    color: whitesmoke;
+}

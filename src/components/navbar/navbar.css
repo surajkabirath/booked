@@ -1,0 +1,38 @@
+.navbar{
+    height: 50px;
+    background-color: #003580;
+    display: flex;
+    justify-content: center;
+}
+.navContainer{
+width: 100%;
+max-width: 1024px;
+color: white;
+display: flex; /*it makes everything in a single line*/
+align-items: center;
+justify-content: space-between;
+}
+.logo{
+    font-weight: 1000;
+    font-style: italic;
+    font-size: 25px;
+}
+.logo>h1{
+    color: red;
+}
+.logo>h1>span{
+    color: #f9d509;
+}
+.navButton{
+    margin-left: 20px;
+    border: none;
+    padding: 7px 10px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(109, 12, 147);
+
+}
+.navButton:hover{
+    background-color: blueviolet;
+}
